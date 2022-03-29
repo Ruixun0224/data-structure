@@ -1,8 +1,9 @@
 # ninja log v5
 1	355	6700703655732058	CMakeFiles/c_project.dir/source_code/hello.cpp.obj	fb04fdd1670fe387
 0	426	6700708712425992	CMakeFiles/c_project.dir/source_code/test1/hello.cpp.obj	29d212bcbd364d37
-139	268	6701556600515744	c_project.exe	c5f700cadcd3b2a4
+166	319	6702379061594260	c_project.exe	6e30e72b7cf2f281
 3	386	6700709495350070	CMakeFiles/c_project.dir/source_code/DS/sqlist.cpp.obj	8366375bcc52e969
 4	191	6700809390215514	CMakeFiles/c_project.dir/source_code/DS/test1.cpp.obj	ed4caf50af79f440
+3	165	6702379060114583	CMakeFiles/c_project.dir/source_code/DS/list2.cpp.obj	1b37451d5acca1eb
 2	128	6700847087180813	CMakeFiles/c_project.dir/source_code/DS/test2.cpp.obj	a5ed48385c51e620
 3	139	6701556599265286	CMakeFiles/c_project.dir/source_code/DS/list1.cpp.obj	5275062be288eff9

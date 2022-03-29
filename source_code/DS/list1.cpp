@@ -1,5 +1,6 @@
 //
 // Created by yurui on 2022/3/28.
+//顺序表
 //
 #include "stdio.h"
 #include "stdlib.h"

@@ -1,5 +1,6 @@
 //
 // Created by yurui on 2022/3/28.
+//单链表
 //
 #include "stdio.h"
 #include "stdlib.h"
@@ -132,6 +133,13 @@ bool InsertPriorNode(LNode *p, int e) {
     return true;
 }
 
+/**
+ * 删除链表指定位置的值 e带出
+ * @param L
+ * @param i
+ * @param e
+ * @return
+ */
 bool DeleteList(LinkList &L, int i, int &e) {
     if (i < 1)
         return false;
@@ -149,4 +157,80 @@ bool DeleteList(LinkList &L, int i, int &e) {
     p->next = q->next;
     free(q);
     return true;
+}
+
+/**
+ * 按位查找
+ * @param L
+ * @param i
+ * @return
+ */
+LNode *GetElem(LinkList L, int i) {
+    if (i < 0)
+        return NULL;
+    LNode *p;
+    p = L;
+    int j = 0;
+    while (p != NULL && j < i) {
+        p = p->next;
+        j++;
+    }
+    return p;
+}
+
+/**
+ * 按值查找
+ * @param L
+ * @param e
+ * @return
+ */
+LNode *LocateElem(LinkList L, int e) {
+    LNode *p = L->next;
+    while (p != NULL && p->data != e) {
+        p = p->next;
+    }
+    return p;
+}
+
+/**
+ * 尾插法实现单链表
+ * @param L
+ * @return
+ */
+LinkList TailInsert(LinkList &L) {
+    int x;
+    L = (LNode *) malloc(sizeof(LNode));
+    LNode *s, *r = L;
+    scanf("%d", &x);
+    while (x != 100) {
+        s = (LNode *) malloc(sizeof(LNode));
+        s->data = x;
+        r->next = s;
+        r = s;
+        scanf("%d", &x);
+    }
+    r->next = NULL;
+    return L;
+}
+
+/**
+ * 头插法实现单链表（逆置问题）
+ * @param L
+ * @return
+ */
+LinkList HeadInsert(LinkList &L) {
+    LNode *s;
+    int x;
+    L = (LNode *) malloc(sizeof(LNode));
+    L->next = NULL;
+    scanf("%d", &x);
+    while (x != 100) {
+        s = (LNode *) malloc(sizeof(LNode));
+        s->data = x;
+        s->next = L->next;
+        L->next = s;
+        scanf("%d", &x);
+    }
+    return L;
+
 }
