@@ -1,0 +1,22 @@
+[
+{
+  "directory": "C:/Users/yurui/c_project/build",
+  "command": "C:\\Users\\yurui\\c_project\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\c_project.dir\\source_code\\DS\\list2.cpp.obj -c C:\\Users\\yurui\\c_project\\source_code\\DS\\list2.cpp",
+  "file": "C:/Users/yurui/c_project/source_code/DS/list2.cpp"
+},
+{
+  "directory": "C:/Users/yurui/c_project/build",
+  "command": "C:\\Users\\yurui\\c_project\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\c_project.dir\\source_code\\DS\\list3.cpp.obj -c C:\\Users\\yurui\\c_project\\source_code\\DS\\list3.cpp",
+  "file": "C:/Users/yurui/c_project/source_code/DS/list3.cpp"
+},
+{
+  "directory": "C:/Users/yurui/c_project/build",
+  "command": "C:\\Users\\yurui\\c_project\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\c_project.dir\\source_code\\DS\\list4.cpp.obj -c C:\\Users\\yurui\\c_project\\source_code\\DS\\list4.cpp",
+  "file": "C:/Users/yurui/c_project/source_code/DS/list4.cpp"
+},
+{
+  "directory": "C:/Users/yurui/c_project/build",
+  "command": "C:\\Users\\yurui\\c_project\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\c_project.dir\\source_code\\DS\\list5.cpp.obj -c C:\\Users\\yurui\\c_project\\source_code\\DS\\list5.cpp",
+  "file": "C:/Users/yurui/c_project/source_code/DS/list5.cpp"
+}
+]
