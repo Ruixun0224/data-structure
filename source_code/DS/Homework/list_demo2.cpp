@@ -3,6 +3,7 @@
 //
 #include "stdio.h"
 #include "stdlib.h"
+#include "math.h"
 
 typedef struct LNode {
     int data;
@@ -120,12 +121,91 @@ void deleteMinNode(LinkList &L) {
     free(minp);
 }
 
+/**
+ * 头插法实现单链表逆置
+ * @param L
+ */
+void reserveL(LinkList &L) {
+    LNode *p = L->next, *q;
+    L->next = NULL;
+    while (p != NULL) {
+        q = p->next;
+        p->next = L->next;
+        L->next = p;
+        p = q;
+    }
+}
+
+/**
+ * 使得链表A中数据域奇数停留在A中，偶数停留在B中
+ * @param A
+ * @param B
+ */
+void spilt(LinkList &A, LinkList &B) {
+    LNode *p, *q, *r;
+    B = (LNode *) malloc(sizeof(LNode));
+    B->next = NULL;
+    r = B;
+    p = A;
+    while (p->next != NULL) {
+        if (p->next->data % 2 == 0) {
+            q = p->next;
+            p->next = q->next;
+            q->next = NULL;
+            r->next = q;
+            r = q;
+        } else
+            p = p->next;
+    }
+}
+
+/**
+ * 逆序打印单链表中数据元素
+ * @param L
+ */
+void reprint(LinkList L) {
+    if (L != NULL) {
+        reprint(L->next);
+        printf("%d\t", L->data);
+    }
+}
+
+/**
+ * 判断两个集合是否相等，相等返回1，不等返回0
+ * @param A
+ * @param B
+ * @return
+ */
+int isEqual(LinkList A, LinkList B) {
+    LNode *p = A->next;
+    LNode *q = B->next;
+    while (p != NULL && q != NULL) {
+        if (p->data == q->data) {
+            p = p->next;
+            q = q->next;
+        }else
+            return 0;
+    }
+    if(p!=NULL||q!=NULL)
+        return 0;
+    else
+        return 1;
+}
+
 
 int main() {
     LinkList L;
+    LinkList L1;
     InitLinkList(L);
     TailInsert(L);
+    TailInsert(L1);
+//    spilt(L, L1);
+//    showList(L);
+//    showList(L1);
     showList(L);
-    deleteMinNode(L);
-    showList(L);
+    showList(L1);
+    printf("%d", isEqual(L,L1));
+
+
+    return 0;
 }
