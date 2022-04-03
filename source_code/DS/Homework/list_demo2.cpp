@@ -10,6 +10,11 @@ typedef struct LNode {
     struct LNode *next;
 } LNode, *LinkList;
 
+typedef struct LNode1 {
+    char data;
+    struct LNode1 *next;
+} LNode1, *LinkList1;
+
 /**
  * 显示链表
  * @param L
@@ -20,6 +25,21 @@ void showList(LinkList L) {
     printf("\n");
     while (p != NULL) {
         printf("%d\t", p->data);
+        p = p->next;
+    }
+    printf("\n");
+}
+
+/**
+ * 显示链表
+ * @param L
+ */
+void showList1(LinkList1 L) {
+    LNode1 *p;
+    p = L->next;
+    printf("\n");
+    while (p != NULL) {
+        printf("%c\t", p->data);
         p = p->next;
     }
     printf("\n");
@@ -183,29 +203,89 @@ int isEqual(LinkList A, LinkList B) {
         if (p->data == q->data) {
             p = p->next;
             q = q->next;
-        }else
+        } else
             return 0;
     }
-    if(p!=NULL||q!=NULL)
+    if (p != NULL || q != NULL)
         return 0;
     else
         return 1;
 }
 
+/**
+ * 键盘读入一个数，在单链表中创建n个单词不重复的录入单链表中
+ * 有bug，不能完整输出，不知道原因
+ * @param L
+ */
+void createLinkNoSameElem(LinkList1 &L) {
+    L = (LNode1 *) malloc(sizeof(LNode1));
+    L->next = NULL;
+    LNode1 *p;
+    int n;
+    printf("input the count of your char\n");
+    scanf("%d", &n);
+    char ch;
+    printf("input your char\n");
+    for (int i = 0; i < n; ++i) {
+        ch = getchar();
+        p = L->next;
+        while (p != NULL) {
+            if (p->data == ch)
+                break;
+            p = p->next;
+        }
+        if (p == NULL) {
+            p = (LNode1 *) malloc(sizeof(LNode1));
+            p->data = ch;
+            p->next = L->next;
+            L->next = p;
+        }
+    }
+}
+
+/**
+ * 找到单链表中倒数第k个节点，若有，返回k值return1，若没有，return0
+ * @param L
+ * @param k
+ * @return
+ */
+int findElem(LinkList L, int k) {
+    LNode *p1, *p;
+    p1 = L->next;
+    p = L;
+    int i = 1;
+    while (p1 != NULL) {
+        p1 = p1->next;
+        i++;
+        if (i > k)
+            p = p->next;
+    }
+    if (p == L)
+        return 0;
+    else {
+        printf("%d\n", p->data);
+        return 1;
+    }
+
+}
+
+
 
 int main() {
+//    LinkList1 L1;
     LinkList L;
-    LinkList L1;
     InitLinkList(L);
     TailInsert(L);
-    TailInsert(L1);
+//    TailInsert(L1);
 //    spilt(L, L1);
 //    showList(L);
 //    showList(L1);
-    showList(L);
-    showList(L1);
-    printf("%d", isEqual(L,L1));
-
+//    showList(L);
+//    showList(L1);
+//    printf("%d", isEqual(L,L1));
+//    createLinkNoSameElem(L1);
+//    showList1(L1);
+    findElem(L, 1);
 
     return 0;
 }
