@@ -6,7 +6,7 @@
 #include "stdlib.h"
 #include "time.h"
 
-#define MAXSIZE 10
+#define MAXSIZE 1000
 
 typedef struct {
     int data[MAXSIZE];
@@ -157,6 +157,30 @@ int majority(int A[], int n) {
         return -1;
 }
 
+/**
+ * 拓展习题第一题，结果有误不知道原因
+ * @param A
+ * @param na
+ * @param B
+ * @param nb
+ * @return
+ */
+int mergeArray(int A[], int &na, int B[], int nb) {
+    if (na + nb > MAXSIZE)
+        return -1;
+    int i = na, j = nb;
+    while (j > 0) {
+        if (i == 0 || A[i - 1] < B[j - 1]) {
+            A[i + j - 1] = B[j - 1];
+            j--;
+        } else {
+            A[i + j - 1] = A[i - 1];
+            i--;
+        }
+    }
+    na = na + nb;
+    return na;
+}
 
 int main() {
 //    SqList L1;
@@ -181,29 +205,40 @@ int main() {
 //    showList(L);
 //    move(L);
 //    showList(L);
-    int n;
-    printf("input the count of array:\n");
-    scanf("%d", &n);
-    int R[n];
-    srand(time(NULL));
-    int a;
-    for (int i = 0; i < n; ++i) {
-        scanf("%d",&a);
-        R[i] = a;
-    }
-    printf("before\n");
-    for (int i = 0; i < n; ++i) {
-        printf("%d\t", R[i]);
-    }
-    printf("\n");
+//    int n;
+//    printf("input the count of array:\n");
+//    scanf("%d", &n);
+//    int R[n];
+//    srand(time(NULL));
+//    int a;
+//    for (int i = 0; i < n; ++i) {
+//        scanf("%d", &a);
+//        R[i] = a;
+//    }
+//    printf("before\n");
+//    for (int i = 0; i < n; ++i) {
+//        printf("%d\t", R[i]);
+//    }
+//    printf("\n");
 //    RCR(R, n, 5);
 //    printf("after\n");
 //    for (int i = 0; i < n; ++i) {
 //        printf("%d\t", R[i]);
 //    }
 //    printf("\n");
-    int c = majority(R,n);
-    printf("result is %d\n",c);
+//    int c = majority(R, n);
+//    printf("result is %d\n", c);
+    int A[5] = {1, 2, 4, 7, 9};
+    int B[5] = {2, 4, 5, 7, 8};
+    int na = 5;
+    int nb = 5;
+    int i =mergeArray(A, na, B, nb);
+    printf("result:%d\n",i);
+    for (int j = 0; j < 10; ++j) {
+        printf("data[%d]:%d\n",j,A[j]);
+    }
+    printf("\n");
+    
     return 0;
 }
 

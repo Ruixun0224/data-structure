@@ -68,81 +68,33 @@ include CMakeFiles/c_project.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/c_project.dir/flags.make
 
-CMakeFiles/c_project.dir/source_code/DS/list2.cpp.obj: CMakeFiles/c_project.dir/flags.make
-CMakeFiles/c_project.dir/source_code/DS/list2.cpp.obj: ../source_code/DS/list2.cpp
-CMakeFiles/c_project.dir/source_code/DS/list2.cpp.obj: CMakeFiles/c_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\yurui\c_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/c_project.dir/source_code/DS/list2.cpp.obj"
-	C:\Users\yurui\c_project\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/c_project.dir/source_code/DS/list2.cpp.obj -MF CMakeFiles\c_project.dir\source_code\DS\list2.cpp.obj.d -o CMakeFiles\c_project.dir\source_code\DS\list2.cpp.obj -c C:\Users\yurui\c_project\source_code\DS\list2.cpp
+CMakeFiles/c_project.dir/source_code/DS/Homework/list_demo1.cpp.obj: CMakeFiles/c_project.dir/flags.make
+CMakeFiles/c_project.dir/source_code/DS/Homework/list_demo1.cpp.obj: ../source_code/DS/Homework/list_demo1.cpp
+CMakeFiles/c_project.dir/source_code/DS/Homework/list_demo1.cpp.obj: CMakeFiles/c_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\yurui\c_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/c_project.dir/source_code/DS/Homework/list_demo1.cpp.obj"
+	C:\Users\yurui\c_project\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/c_project.dir/source_code/DS/Homework/list_demo1.cpp.obj -MF CMakeFiles\c_project.dir\source_code\DS\Homework\list_demo1.cpp.obj.d -o CMakeFiles\c_project.dir\source_code\DS\Homework\list_demo1.cpp.obj -c C:\Users\yurui\c_project\source_code\DS\Homework\list_demo1.cpp
 
-CMakeFiles/c_project.dir/source_code/DS/list2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_project.dir/source_code/DS/list2.cpp.i"
-	C:\Users\yurui\c_project\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\yurui\c_project\source_code\DS\list2.cpp > CMakeFiles\c_project.dir\source_code\DS\list2.cpp.i
+CMakeFiles/c_project.dir/source_code/DS/Homework/list_demo1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_project.dir/source_code/DS/Homework/list_demo1.cpp.i"
+	C:\Users\yurui\c_project\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\yurui\c_project\source_code\DS\Homework\list_demo1.cpp > CMakeFiles\c_project.dir\source_code\DS\Homework\list_demo1.cpp.i
 
-CMakeFiles/c_project.dir/source_code/DS/list2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_project.dir/source_code/DS/list2.cpp.s"
-	C:\Users\yurui\c_project\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\yurui\c_project\source_code\DS\list2.cpp -o CMakeFiles\c_project.dir\source_code\DS\list2.cpp.s
-
-CMakeFiles/c_project.dir/source_code/DS/list3.cpp.obj: CMakeFiles/c_project.dir/flags.make
-CMakeFiles/c_project.dir/source_code/DS/list3.cpp.obj: ../source_code/DS/list3.cpp
-CMakeFiles/c_project.dir/source_code/DS/list3.cpp.obj: CMakeFiles/c_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\yurui\c_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/c_project.dir/source_code/DS/list3.cpp.obj"
-	C:\Users\yurui\c_project\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/c_project.dir/source_code/DS/list3.cpp.obj -MF CMakeFiles\c_project.dir\source_code\DS\list3.cpp.obj.d -o CMakeFiles\c_project.dir\source_code\DS\list3.cpp.obj -c C:\Users\yurui\c_project\source_code\DS\list3.cpp
-
-CMakeFiles/c_project.dir/source_code/DS/list3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_project.dir/source_code/DS/list3.cpp.i"
-	C:\Users\yurui\c_project\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\yurui\c_project\source_code\DS\list3.cpp > CMakeFiles\c_project.dir\source_code\DS\list3.cpp.i
-
-CMakeFiles/c_project.dir/source_code/DS/list3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_project.dir/source_code/DS/list3.cpp.s"
-	C:\Users\yurui\c_project\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\yurui\c_project\source_code\DS\list3.cpp -o CMakeFiles\c_project.dir\source_code\DS\list3.cpp.s
-
-CMakeFiles/c_project.dir/source_code/DS/list4.cpp.obj: CMakeFiles/c_project.dir/flags.make
-CMakeFiles/c_project.dir/source_code/DS/list4.cpp.obj: ../source_code/DS/list4.cpp
-CMakeFiles/c_project.dir/source_code/DS/list4.cpp.obj: CMakeFiles/c_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\yurui\c_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/c_project.dir/source_code/DS/list4.cpp.obj"
-	C:\Users\yurui\c_project\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/c_project.dir/source_code/DS/list4.cpp.obj -MF CMakeFiles\c_project.dir\source_code\DS\list4.cpp.obj.d -o CMakeFiles\c_project.dir\source_code\DS\list4.cpp.obj -c C:\Users\yurui\c_project\source_code\DS\list4.cpp
-
-CMakeFiles/c_project.dir/source_code/DS/list4.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_project.dir/source_code/DS/list4.cpp.i"
-	C:\Users\yurui\c_project\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\yurui\c_project\source_code\DS\list4.cpp > CMakeFiles\c_project.dir\source_code\DS\list4.cpp.i
-
-CMakeFiles/c_project.dir/source_code/DS/list4.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_project.dir/source_code/DS/list4.cpp.s"
-	C:\Users\yurui\c_project\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\yurui\c_project\source_code\DS\list4.cpp -o CMakeFiles\c_project.dir\source_code\DS\list4.cpp.s
-
-CMakeFiles/c_project.dir/source_code/DS/list5.cpp.obj: CMakeFiles/c_project.dir/flags.make
-CMakeFiles/c_project.dir/source_code/DS/list5.cpp.obj: ../source_code/DS/list5.cpp
-CMakeFiles/c_project.dir/source_code/DS/list5.cpp.obj: CMakeFiles/c_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\yurui\c_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/c_project.dir/source_code/DS/list5.cpp.obj"
-	C:\Users\yurui\c_project\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/c_project.dir/source_code/DS/list5.cpp.obj -MF CMakeFiles\c_project.dir\source_code\DS\list5.cpp.obj.d -o CMakeFiles\c_project.dir\source_code\DS\list5.cpp.obj -c C:\Users\yurui\c_project\source_code\DS\list5.cpp
-
-CMakeFiles/c_project.dir/source_code/DS/list5.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_project.dir/source_code/DS/list5.cpp.i"
-	C:\Users\yurui\c_project\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\yurui\c_project\source_code\DS\list5.cpp > CMakeFiles\c_project.dir\source_code\DS\list5.cpp.i
-
-CMakeFiles/c_project.dir/source_code/DS/list5.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_project.dir/source_code/DS/list5.cpp.s"
-	C:\Users\yurui\c_project\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\yurui\c_project\source_code\DS\list5.cpp -o CMakeFiles\c_project.dir\source_code\DS\list5.cpp.s
+CMakeFiles/c_project.dir/source_code/DS/Homework/list_demo1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_project.dir/source_code/DS/Homework/list_demo1.cpp.s"
+	C:\Users\yurui\c_project\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\yurui\c_project\source_code\DS\Homework\list_demo1.cpp -o CMakeFiles\c_project.dir\source_code\DS\Homework\list_demo1.cpp.s
 
 # Object files for target c_project
 c_project_OBJECTS = \
-"CMakeFiles/c_project.dir/source_code/DS/list2.cpp.obj" \
-"CMakeFiles/c_project.dir/source_code/DS/list3.cpp.obj" \
-"CMakeFiles/c_project.dir/source_code/DS/list4.cpp.obj" \
-"CMakeFiles/c_project.dir/source_code/DS/list5.cpp.obj"
+"CMakeFiles/c_project.dir/source_code/DS/Homework/list_demo1.cpp.obj"
 
 # External object files for target c_project
 c_project_EXTERNAL_OBJECTS =
 
-c_project.exe: CMakeFiles/c_project.dir/source_code/DS/list2.cpp.obj
-c_project.exe: CMakeFiles/c_project.dir/source_code/DS/list3.cpp.obj
-c_project.exe: CMakeFiles/c_project.dir/source_code/DS/list4.cpp.obj
-c_project.exe: CMakeFiles/c_project.dir/source_code/DS/list5.cpp.obj
+c_project.exe: CMakeFiles/c_project.dir/source_code/DS/Homework/list_demo1.cpp.obj
 c_project.exe: CMakeFiles/c_project.dir/build.make
 c_project.exe: CMakeFiles/c_project.dir/linklibs.rsp
 c_project.exe: CMakeFiles/c_project.dir/objects1.rsp
 c_project.exe: CMakeFiles/c_project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\yurui\c_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable c_project.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\yurui\c_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable c_project.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\c_project.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

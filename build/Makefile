@@ -128,101 +128,29 @@ c_project/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_project.dir\build.make CMakeFiles/c_project.dir/build
 .PHONY : c_project/fast
 
-source_code/DS/list2.obj: source_code/DS/list2.cpp.obj
-.PHONY : source_code/DS/list2.obj
+source_code/DS/Homework/list_demo1.obj: source_code/DS/Homework/list_demo1.cpp.obj
+.PHONY : source_code/DS/Homework/list_demo1.obj
 
 # target to build an object file
-source_code/DS/list2.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_project.dir\build.make CMakeFiles/c_project.dir/source_code/DS/list2.cpp.obj
-.PHONY : source_code/DS/list2.cpp.obj
+source_code/DS/Homework/list_demo1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_project.dir\build.make CMakeFiles/c_project.dir/source_code/DS/Homework/list_demo1.cpp.obj
+.PHONY : source_code/DS/Homework/list_demo1.cpp.obj
 
-source_code/DS/list2.i: source_code/DS/list2.cpp.i
-.PHONY : source_code/DS/list2.i
-
-# target to preprocess a source file
-source_code/DS/list2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_project.dir\build.make CMakeFiles/c_project.dir/source_code/DS/list2.cpp.i
-.PHONY : source_code/DS/list2.cpp.i
-
-source_code/DS/list2.s: source_code/DS/list2.cpp.s
-.PHONY : source_code/DS/list2.s
-
-# target to generate assembly for a file
-source_code/DS/list2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_project.dir\build.make CMakeFiles/c_project.dir/source_code/DS/list2.cpp.s
-.PHONY : source_code/DS/list2.cpp.s
-
-source_code/DS/list3.obj: source_code/DS/list3.cpp.obj
-.PHONY : source_code/DS/list3.obj
-
-# target to build an object file
-source_code/DS/list3.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_project.dir\build.make CMakeFiles/c_project.dir/source_code/DS/list3.cpp.obj
-.PHONY : source_code/DS/list3.cpp.obj
-
-source_code/DS/list3.i: source_code/DS/list3.cpp.i
-.PHONY : source_code/DS/list3.i
+source_code/DS/Homework/list_demo1.i: source_code/DS/Homework/list_demo1.cpp.i
+.PHONY : source_code/DS/Homework/list_demo1.i
 
 # target to preprocess a source file
-source_code/DS/list3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_project.dir\build.make CMakeFiles/c_project.dir/source_code/DS/list3.cpp.i
-.PHONY : source_code/DS/list3.cpp.i
+source_code/DS/Homework/list_demo1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_project.dir\build.make CMakeFiles/c_project.dir/source_code/DS/Homework/list_demo1.cpp.i
+.PHONY : source_code/DS/Homework/list_demo1.cpp.i
 
-source_code/DS/list3.s: source_code/DS/list3.cpp.s
-.PHONY : source_code/DS/list3.s
-
-# target to generate assembly for a file
-source_code/DS/list3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_project.dir\build.make CMakeFiles/c_project.dir/source_code/DS/list3.cpp.s
-.PHONY : source_code/DS/list3.cpp.s
-
-source_code/DS/list4.obj: source_code/DS/list4.cpp.obj
-.PHONY : source_code/DS/list4.obj
-
-# target to build an object file
-source_code/DS/list4.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_project.dir\build.make CMakeFiles/c_project.dir/source_code/DS/list4.cpp.obj
-.PHONY : source_code/DS/list4.cpp.obj
-
-source_code/DS/list4.i: source_code/DS/list4.cpp.i
-.PHONY : source_code/DS/list4.i
-
-# target to preprocess a source file
-source_code/DS/list4.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_project.dir\build.make CMakeFiles/c_project.dir/source_code/DS/list4.cpp.i
-.PHONY : source_code/DS/list4.cpp.i
-
-source_code/DS/list4.s: source_code/DS/list4.cpp.s
-.PHONY : source_code/DS/list4.s
+source_code/DS/Homework/list_demo1.s: source_code/DS/Homework/list_demo1.cpp.s
+.PHONY : source_code/DS/Homework/list_demo1.s
 
 # target to generate assembly for a file
-source_code/DS/list4.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_project.dir\build.make CMakeFiles/c_project.dir/source_code/DS/list4.cpp.s
-.PHONY : source_code/DS/list4.cpp.s
-
-source_code/DS/list5.obj: source_code/DS/list5.cpp.obj
-.PHONY : source_code/DS/list5.obj
-
-# target to build an object file
-source_code/DS/list5.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_project.dir\build.make CMakeFiles/c_project.dir/source_code/DS/list5.cpp.obj
-.PHONY : source_code/DS/list5.cpp.obj
-
-source_code/DS/list5.i: source_code/DS/list5.cpp.i
-.PHONY : source_code/DS/list5.i
-
-# target to preprocess a source file
-source_code/DS/list5.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_project.dir\build.make CMakeFiles/c_project.dir/source_code/DS/list5.cpp.i
-.PHONY : source_code/DS/list5.cpp.i
-
-source_code/DS/list5.s: source_code/DS/list5.cpp.s
-.PHONY : source_code/DS/list5.s
-
-# target to generate assembly for a file
-source_code/DS/list5.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_project.dir\build.make CMakeFiles/c_project.dir/source_code/DS/list5.cpp.s
-.PHONY : source_code/DS/list5.cpp.s
+source_code/DS/Homework/list_demo1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_project.dir\build.make CMakeFiles/c_project.dir/source_code/DS/Homework/list_demo1.cpp.s
+.PHONY : source_code/DS/Homework/list_demo1.cpp.s
 
 # Help Target
 help:
@@ -233,18 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... c_project
-	@echo ... source_code/DS/list2.obj
-	@echo ... source_code/DS/list2.i
-	@echo ... source_code/DS/list2.s
-	@echo ... source_code/DS/list3.obj
-	@echo ... source_code/DS/list3.i
-	@echo ... source_code/DS/list3.s
-	@echo ... source_code/DS/list4.obj
-	@echo ... source_code/DS/list4.i
-	@echo ... source_code/DS/list4.s
-	@echo ... source_code/DS/list5.obj
-	@echo ... source_code/DS/list5.i
-	@echo ... source_code/DS/list5.s
+	@echo ... source_code/DS/Homework/list_demo1.obj
+	@echo ... source_code/DS/Homework/list_demo1.i
+	@echo ... source_code/DS/Homework/list_demo1.s
 .PHONY : help
 
 
