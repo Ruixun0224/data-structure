@@ -55,11 +55,29 @@ build CMakeFiles/c_project.dir/source_code/DS/Homework/list_demo1.cpp.obj: CXX_C
   OBJECT_DIR = CMakeFiles\c_project.dir
   OBJECT_FILE_DIR = CMakeFiles\c_project.dir\source_code\DS\Homework
 
-build CMakeFiles/c_project.dir/source_code/DS/DS_Learning/stack1.cpp.obj: CXX_COMPILER__c_project_Debug C$:/Users/yurui/c_project/source_code/DS/DS_Learning/stack1.cpp || cmake_object_order_depends_target_c_project
-  DEP_FILE = CMakeFiles\c_project.dir\source_code\DS\DS_Learning\stack1.cpp.obj.d
+build CMakeFiles/c_project.dir/source_code/DS/DS_Learning/stack&queue/stack1.cpp.obj: CXX_COMPILER__c_project_Debug C$:/Users/yurui/c_project/source_code/DS/DS_Learning/stack&queue/stack1.cpp || cmake_object_order_depends_target_c_project
+  DEP_FILE = "CMakeFiles\c_project.dir\source_code\DS\DS_Learning\stack&queue\stack1.cpp.obj.d"
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\c_project.dir
-  OBJECT_FILE_DIR = CMakeFiles\c_project.dir\source_code\DS\DS_Learning
+  OBJECT_FILE_DIR = "CMakeFiles\c_project.dir\source_code\DS\DS_Learning\stack&queue"
+
+build CMakeFiles/c_project.dir/source_code/DS/DS_Learning/stack&queue/stack2.cpp.obj: CXX_COMPILER__c_project_Debug C$:/Users/yurui/c_project/source_code/DS/DS_Learning/stack&queue/stack2.cpp || cmake_object_order_depends_target_c_project
+  DEP_FILE = "CMakeFiles\c_project.dir\source_code\DS\DS_Learning\stack&queue\stack2.cpp.obj.d"
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\c_project.dir
+  OBJECT_FILE_DIR = "CMakeFiles\c_project.dir\source_code\DS\DS_Learning\stack&queue"
+
+build CMakeFiles/c_project.dir/source_code/DS/DS_Learning/stack&queue/queue1.cpp.obj: CXX_COMPILER__c_project_Debug C$:/Users/yurui/c_project/source_code/DS/DS_Learning/stack&queue/queue1.cpp || cmake_object_order_depends_target_c_project
+  DEP_FILE = "CMakeFiles\c_project.dir\source_code\DS\DS_Learning\stack&queue\queue1.cpp.obj.d"
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\c_project.dir
+  OBJECT_FILE_DIR = "CMakeFiles\c_project.dir\source_code\DS\DS_Learning\stack&queue"
+
+build CMakeFiles/c_project.dir/source_code/DS/DS_Learning/stack&queue/queue2.cpp.obj: CXX_COMPILER__c_project_Debug C$:/Users/yurui/c_project/source_code/DS/DS_Learning/stack&queue/queue2.cpp || cmake_object_order_depends_target_c_project
+  DEP_FILE = "CMakeFiles\c_project.dir\source_code\DS\DS_Learning\stack&queue\queue2.cpp.obj.d"
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\c_project.dir
+  OBJECT_FILE_DIR = "CMakeFiles\c_project.dir\source_code\DS\DS_Learning\stack&queue"
 
 
 # =============================================================================
@@ -69,7 +87,7 @@ build CMakeFiles/c_project.dir/source_code/DS/DS_Learning/stack1.cpp.obj: CXX_CO
 #############################################
 # Link the executable c_project.exe
 
-build c_project.exe: CXX_EXECUTABLE_LINKER__c_project_Debug CMakeFiles/c_project.dir/source_code/DS/Homework/list_demo1.cpp.obj CMakeFiles/c_project.dir/source_code/DS/DS_Learning/stack1.cpp.obj
+build c_project.exe: CXX_EXECUTABLE_LINKER__c_project_Debug CMakeFiles/c_project.dir/source_code/DS/Homework/list_demo1.cpp.obj CMakeFiles/c_project.dir/source_code/DS/DS_Learning/stack&queue/stack1.cpp.obj CMakeFiles/c_project.dir/source_code/DS/DS_Learning/stack&queue/stack2.cpp.obj CMakeFiles/c_project.dir/source_code/DS/DS_Learning/stack&queue/queue1.cpp.obj CMakeFiles/c_project.dir/source_code/DS/DS_Learning/stack&queue/queue2.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\c_project.dir
