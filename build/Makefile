@@ -128,29 +128,29 @@ c_project/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_project.dir\build.make CMakeFiles/c_project.dir/build
 .PHONY : c_project/fast
 
-source_code/DS/Homework/list_demo1.obj: source_code/DS/Homework/list_demo1.cpp.obj
-.PHONY : source_code/DS/Homework/list_demo1.obj
+source_code/DS/DS_Learning/stack&queue/stackExample.obj: source_code/DS/DS_Learning/stack&queue/stackExample.cpp.obj
+.PHONY : source_code/DS/DS_Learning/stack&queue/stackExample.obj
 
 # target to build an object file
-source_code/DS/Homework/list_demo1.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_project.dir\build.make CMakeFiles/c_project.dir/source_code/DS/Homework/list_demo1.cpp.obj
-.PHONY : source_code/DS/Homework/list_demo1.cpp.obj
+source_code/DS/DS_Learning/stack&queue/stackExample.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_project.dir\build.make "CMakeFiles/c_project.dir/source_code/DS/DS_Learning/stack&queue/stackExample.cpp.obj"
+.PHONY : source_code/DS/DS_Learning/stack&queue/stackExample.cpp.obj
 
-source_code/DS/Homework/list_demo1.i: source_code/DS/Homework/list_demo1.cpp.i
-.PHONY : source_code/DS/Homework/list_demo1.i
+source_code/DS/DS_Learning/stack&queue/stackExample.i: source_code/DS/DS_Learning/stack&queue/stackExample.cpp.i
+.PHONY : source_code/DS/DS_Learning/stack&queue/stackExample.i
 
 # target to preprocess a source file
-source_code/DS/Homework/list_demo1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_project.dir\build.make CMakeFiles/c_project.dir/source_code/DS/Homework/list_demo1.cpp.i
-.PHONY : source_code/DS/Homework/list_demo1.cpp.i
+source_code/DS/DS_Learning/stack&queue/stackExample.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_project.dir\build.make "CMakeFiles/c_project.dir/source_code/DS/DS_Learning/stack&queue/stackExample.cpp.i"
+.PHONY : source_code/DS/DS_Learning/stack&queue/stackExample.cpp.i
 
-source_code/DS/Homework/list_demo1.s: source_code/DS/Homework/list_demo1.cpp.s
-.PHONY : source_code/DS/Homework/list_demo1.s
+source_code/DS/DS_Learning/stack&queue/stackExample.s: source_code/DS/DS_Learning/stack&queue/stackExample.cpp.s
+.PHONY : source_code/DS/DS_Learning/stack&queue/stackExample.s
 
 # target to generate assembly for a file
-source_code/DS/Homework/list_demo1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_project.dir\build.make CMakeFiles/c_project.dir/source_code/DS/Homework/list_demo1.cpp.s
-.PHONY : source_code/DS/Homework/list_demo1.cpp.s
+source_code/DS/DS_Learning/stack&queue/stackExample.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_project.dir\build.make "CMakeFiles/c_project.dir/source_code/DS/DS_Learning/stack&queue/stackExample.cpp.s"
+.PHONY : source_code/DS/DS_Learning/stack&queue/stackExample.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... c_project
-	@echo ... source_code/DS/Homework/list_demo1.obj
-	@echo ... source_code/DS/Homework/list_demo1.i
-	@echo ... source_code/DS/Homework/list_demo1.s
+	@echo ... source_code/DS/DS_Learning/stack&queue/stackExample.obj
+	@echo ... source_code/DS/DS_Learning/stack&queue/stackExample.i
+	@echo ... source_code/DS/DS_Learning/stack&queue/stackExample.s
 .PHONY : help
 
 

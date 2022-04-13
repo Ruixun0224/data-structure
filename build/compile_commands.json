@@ -1,7 +1,7 @@
 [
 {
   "directory": "C:/Users/yurui/c_project/build",
-  "command": "C:\\Users\\yurui\\c_project\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\c_project.dir\\source_code\\DS\\Homework\\list_demo1.cpp.obj -c C:\\Users\\yurui\\c_project\\source_code\\DS\\Homework\\list_demo1.cpp",
-  "file": "C:/Users/yurui/c_project/source_code/DS/Homework/list_demo1.cpp"
+  "command": "C:\\Users\\yurui\\c_project\\mingw64\\bin\\g++.exe   -g -o \"CMakeFiles\\c_project.dir\\source_code\\DS\\DS_Learning\\stack&queue\\stackExample.cpp.obj\" -c \"C:\\Users\\yurui\\c_project\\source_code\\DS\\DS_Learning\\stack&queue\\stackExample.cpp\"",
+  "file": "C:/Users/yurui/c_project/source_code/DS/DS_Learning/stack&queue/stackExample.cpp"
 }
 ]
