@@ -341,11 +341,11 @@ int bracketCheck(char f[]) {
         return 0;
 }
 
-/*void test02(){
-    char ch[]={'(','h','a',')','[','{',']','}','\'','\'','"','a','"'};
+void test02(){
+    char ch[]={"(1+a+u)+[I-}"};
     int i = bracketCheck(ch);
     printf("result:%d\n",i);
-}*/
+}
 
 /**
  * 递归形式

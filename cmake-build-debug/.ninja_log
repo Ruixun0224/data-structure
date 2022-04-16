@@ -1,11 +1,6 @@
 # ninja log v5
-122	234	6715384328890607	c_project.exe	2c07cb669e044785
-4	235	6717085362379239	build.ninja	e20b240684566d0c
-3	119	6715384327807271	CMakeFiles/c_project.dir/source_code/DS/DS_Learning/stack_queue/stackExample.cpp.obj	fb291d702c646645
-2	233	6717085362379239	build.ninja	e20b240684566d0c
-0	400	6717085366754238	CMakeFiles/c_project.dir/source_code/DS/Homework/stack_queue/stack1.cpp.obj	ae279cd5c2e5891c
-401	709	6717085369731248	c_project.exe	b440969b4bcbd7ec
-2	138	6717085474357367	CMakeFiles/c_project.dir/source_code/DS/Homework/stack_queue/stack1.cpp.obj	ae279cd5c2e5891c
-138	263	6717085475451041	c_project.exe	b440969b4bcbd7ec
-3	143	6717098106757149	CMakeFiles/c_project.dir/source_code/DS/Homework/stack_queue/stack1.cpp.obj	ae279cd5c2e5891c
-144	287	6717098108170163	c_project.exe	b440969b4bcbd7ec
+141	684	6717992328640792	c_project.exe	98e226bfbd994e6
+2	233	6717992453612026	build.ninja	e20b240684566d0c
+3	140	6717992323297889	CMakeFiles/c_project.dir/source_code/DS/DS_Learning/string/string1.cpp.obj	2ff93c6a40245969
+0	220	6717997857909507	CMakeFiles/c_project.dir/source_code/DS/DS_Learning/string/string1.cpp.obj	f2f349a8e44f91ce
+222	392	6717997859559467	c_project.exe	a812de09609d9776
