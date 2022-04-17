@@ -1,4 +1,5 @@
 # ninja log v5
-1188	1648	6718796200605347	c_project.exe	a812de09609d9776
-2	233	6718797138671635	build.ninja	e20b240684566d0c
-6	1187	6718796196037607	CMakeFiles/c_project.dir/source_code/DS/DS_Learning/string/string1.cpp.obj	f2f349a8e44f91ce
+144	275	6718855928118063	c_project.exe	e44f4c9ea9bc044c
+2	233	6718865601657358	build.ninja	e20b240684566d0c
+1	202	6718829110200987	CMakeFiles/c_project.dir/source_code/DS/DS_Learning/string/string1.cpp.obj	f2f349a8e44f91ce
+4	144	6718855926871499	CMakeFiles/c_project.dir/source_code/DS/DS_Learning/string/KMP.cpp.obj	b131030e667031b6

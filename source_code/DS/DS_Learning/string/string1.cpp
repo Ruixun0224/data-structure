@@ -8,7 +8,7 @@
 #define MAXSIZE 100
 
 typedef struct {
-    char str[MAXSIZE + 1];
+    char ch[MAXSIZE + 1];
     int length;
 } Str1;
 
