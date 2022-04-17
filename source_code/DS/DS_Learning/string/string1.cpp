@@ -42,7 +42,7 @@ int strAssign(Str &str, char *ch) {
             return 0;
         else {
             c = ch;
-            for (int i = 0; i <= len; ++c) {
+            for (int i = 0; i <= len; ++c, ++i) {
                 str.ch[i] = *c;
                 str.length = len;
                 return 1;
@@ -118,7 +118,7 @@ int concat(Str &str, Str str1, Str str2) {
  * @return
  */
 int substring(Str &substr, Str str, int pos, int len) {
-    if (pos < 0 || pos > str.length || len < 0 || len > str.length)
+    if (pos < 0 || pos > str.length || len < 0 || len > str.length - len)
         return 0;
     if (str.ch) {
         free(str.ch);
