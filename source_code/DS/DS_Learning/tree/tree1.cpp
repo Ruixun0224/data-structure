@@ -5,7 +5,7 @@
 #include "stdlib.h"
 
 #define MAXSIZE 10
-
+#define MAX_TREE_SIZE 100
 
 /**
  * 二叉树的链式存储
@@ -41,11 +41,35 @@ typedef struct {
     LinkNode *front, *rear;
 } LinkQueue;
 
+/**
+ * 线索二叉树结构
+ */
 typedef struct ThreadNode {
     int data;
     struct ThreadNode *lchild, *rchild;
     int ltag, rtag;
 } ThreadNode, *ThreadTree;
+
+/**
+ * 双亲表示法结构
+ */
+typedef struct {
+    int data;
+    int parent;
+} PTNode;
+
+typedef struct {
+    PTNode nodes[MAX_TREE_SIZE];
+    int n;
+} PTree;
+
+/**
+ * 孩子兄弟表示法
+ */
+typedef struct CSNode {
+    int data;
+    struct CSNode *firstChild, *nextSibling;
+} CSNode, *CSTree;
 
 /**
  * 访问节点操作
