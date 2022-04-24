@@ -49,11 +49,11 @@ cmake_ninja_workdir = C$:/Users/yurui/c_project/cmake-build-debug/
 
 build cmake_object_order_depends_target_c_project: phony || CMakeFiles/c_project.dir
 
-build CMakeFiles/c_project.dir/source_code/DS/DS_Learning/tree/tree1.cpp.obj: CXX_COMPILER__c_project_Debug C$:/Users/yurui/c_project/source_code/DS/DS_Learning/tree/tree1.cpp || cmake_object_order_depends_target_c_project
-  DEP_FILE = CMakeFiles\c_project.dir\source_code\DS\DS_Learning\tree\tree1.cpp.obj.d
+build CMakeFiles/c_project.dir/source_code/DS/Homework/tree/tree1.cpp.obj: CXX_COMPILER__c_project_Debug C$:/Users/yurui/c_project/source_code/DS/Homework/tree/tree1.cpp || cmake_object_order_depends_target_c_project
+  DEP_FILE = CMakeFiles\c_project.dir\source_code\DS\Homework\tree\tree1.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\c_project.dir
-  OBJECT_FILE_DIR = CMakeFiles\c_project.dir\source_code\DS\DS_Learning\tree
+  OBJECT_FILE_DIR = CMakeFiles\c_project.dir\source_code\DS\Homework\tree
 
 
 # =============================================================================
@@ -63,7 +63,7 @@ build CMakeFiles/c_project.dir/source_code/DS/DS_Learning/tree/tree1.cpp.obj: CX
 #############################################
 # Link the executable c_project.exe
 
-build c_project.exe: CXX_EXECUTABLE_LINKER__c_project_Debug CMakeFiles/c_project.dir/source_code/DS/DS_Learning/tree/tree1.cpp.obj
+build c_project.exe: CXX_EXECUTABLE_LINKER__c_project_Debug CMakeFiles/c_project.dir/source_code/DS/Homework/tree/tree1.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\c_project.dir

@@ -6,6 +6,12 @@
 
 #define MAXSIZE 10
 #define MAX_TREE_SIZE 100
+#define SIZE 100
+
+/**
+ * 集合元素数组（双亲指针数组）
+ */
+int UFSets[SIZE];
 
 /**
  * 二叉树的链式存储
@@ -365,4 +371,37 @@ ThreadNode *NextNode(ThreadNode *p) {
         return FirstNode(p->rchild);
     else
         return p->rchild;
+}
+
+/**
+ * 初始化并查集
+ * @param S
+ */
+void Initial(int S[]) {
+    int size = 10;
+    for (int i = 0; i < size; ++i) {
+        S[i] = -1;
+    }
+}
+
+/**
+ * 查找根元素（并查集）
+ * @param S
+ * @param x
+ * @return
+ */
+int Find(int S[], int x) {
+    while (S[x] >= 0)
+        x = S[x];
+    return x;
+}
+
+/**
+ * 合并集合（并查集）
+ * @param S
+ * @param root1
+ * @param root2
+ */
+void Union(int S[], int root1, int root2) {
+    S[root2] = root1;
 }
